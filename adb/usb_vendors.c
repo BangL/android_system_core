@@ -127,6 +127,8 @@
 #define VENDOR_ID_LAB126        0x1949
 // Yulong Coolpad's USB Vendor ID
 #define VENDOR_ID_YULONG_COOLPAD 0x1EBF
+// Lab126's USB Vendor ID
+#define VENDOR_ID_LAB126        0x1949
 // Kobo's USB Vendor ID
 #define VENDOR_ID_KOBO          0x2237
 // Teleepoch's USB Vendor ID
@@ -137,7 +139,6 @@
 #define VENDOR_ID_HARRIS        0x19A5
 // OPPO's USB Vendor ID
 #define VENDOR_ID_OPPO          0x22D9
-
 
 /** built-in vendor list */
 int builtInVendorIds[] = {
@@ -187,6 +188,7 @@ int builtInVendorIds[] = {
     VENDOR_ID_SONY,
     VENDOR_ID_LAB126,
     VENDOR_ID_YULONG_COOLPAD,
+    VENDOR_ID_LAB126,
     VENDOR_ID_KOBO,
     VENDOR_ID_TELEEPOCH,
     VENDOR_ID_ANYDATA,

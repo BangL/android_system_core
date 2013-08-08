@@ -472,6 +472,8 @@ int connection_state(atransport *t);
 
 #define CS_ONLINE    10 /* recovery or device */
 
+#define CS_ONLINE    10 /* recovery or device */
+
 extern int HOST;
 extern int SHELL_EXIT_NOTIFY_FD;
 
